@@ -12,6 +12,9 @@ app.get('/', function(req,res){
     res.render('home')
 })
 
+//Assest
+app.use(express.static('public'));
+
 // set template engine
 app.use(expressLayout);
 app.set('views',path.join(__dirname,'/resources/views'))
