@@ -5,18 +5,17 @@ body {
 }
 
 nav li:last-child a {
-  transition: all 0.3s ease-in-out;
   background: #FE5F1E;
 }
 nav li:last-child a:hover {
-  background-color: #b23301;
+  background: #b23301;
 }
 
 nav li a {
   transition: all 0.3s ease-in-out;
 }
 nav li a:hover {
-  color: #b23301;
+  color: #FE5F1E;
 }
 
 section.hero {
@@ -36,4 +35,30 @@ section.hero {
   background: #FE5F1E;
   border-color: #fff;
   color: #fff;
+}
+
+.btn-primary {
+  background: #FE5F1E;
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
+  background: #b23301;
+}
+
+section.cart {
+  background: #F8F8F8;
+}
+section.cart .amount {
+  color: #FE5F1E;
+}
+
+section.login {
+  background: #F8F8F8;
+  min-height: calc(100vh - 86px);
+}
+section.login a {
+  color: #FE5F1E;
+}
+section.login a:hover {
+  color: #b23301;
 }
